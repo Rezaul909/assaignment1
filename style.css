@@ -1,0 +1,126 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+    padding:0;
+    margin:0;
+}
+/* @-----------------
+section1 START
+-----------------@ */
+.flex-class{
+    display:flex;
+    margin-bottom: 150px;
+    justify-content:space-evenly;
+}
+.half-width{
+    width:50%;
+    margin-left: 50px;
+}
+.half-width img{
+    width:60%;
+}
+h1{
+    font-size:60px;
+    margin: 0px;
+}
+span{
+    color:aqua;
+}
+#top-headline{
+    padding-left: 15px;
+    border-left: 5px solid;
+    border-image: linear-gradient(cyan,blue);
+    border-image-slice: 1;
+}
+.heading-div{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.heading-para-div{
+    padding-right:150px ;
+}
+p{
+    font-size:20px;
+}
+.button{
+    text-decoration:none;
+    background-color:blueviolet;
+    padding:15px 30px;
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+    border-radius: 10px;
+}
+.profile-img{
+    padding: 0px 110px 0 100px;
+}
+
+/* @-----------------
+section1 end
+-----------------@ */
+
+/* @-----------------
+section2 START
+-----------------@ */
+
+h2{
+    font-size:55px;
+    text-align:center
+}
+.mission{
+    width: 25%;
+    background-color:rgb(198, 238, 225);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(235, 157, 183);
+}
+.vission{
+    width: 25%;
+    background-color:rgb(173, 169, 230);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(235, 157, 183);
+}
+.goals{
+    width: 25%;
+    background-color:rgb(172, 219, 172);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(235, 157, 183);
+}
+.mission-img{
+    width:40%;
+    padding-left: 0;
+}
+.mission-div{
+    padding-left:25px;
+    padding-bottom: 40px;
+}
+h4{
+    font-size:25px
+}
+
+/* @-----------------
+section2 end
+-----------------@ */
+
+/* @-----------------
+section3 START
+-----------------@ */
+.one-third-width{
+    width: 30%;
+}
+.tow-third-width{
+    width: 60%;
+}
+.coding-img{
+    width: 100%;
+}
+h3{
+    font-size: 35px;
+}
+/* @-----------------
+section3 end
+-----------------@ */
+
+/* @-----------------
+section4 START
+-----------------@ */
+
