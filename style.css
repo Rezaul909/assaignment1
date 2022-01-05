@@ -124,3 +124,14 @@ section3 end
 section4 START
 -----------------@ */
 
+
+
+/* @-----------------
+footer START
+-----------------@ */
+footer{
+    background-color:rgb(9, 9, 31);
+    text-align: center;
+    color:white;
+    padding:15px 0 20px 0;
+}
