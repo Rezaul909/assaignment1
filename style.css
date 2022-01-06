@@ -58,9 +58,12 @@ p{
     background-color:rgb(123, 219, 228);
     border: 3px solid red;
 }
+#profile-img{
+    padding-top:100px;
+}
 .half-width img{
     width:80%;
-    padding: 100px 110px 0 0px;
+    padding: 10px 110px 0 0px;
 }
 /* @-----------------
 section1 end
@@ -167,13 +170,6 @@ section-Extra START
 .flex-class-extra{
     display:flex;
 }
-.deliver-msg{
-    padding-top: 80px;
-    padding-left: 60px;
-    background-image: url(images/shapes/shape-6.png);
-    background-repeat: no-repeat;
-    background-size: 100px;
-}
 .deliver-img{
     margin-left: 100px;
 }
@@ -195,7 +191,13 @@ section-Extra START
 .services:hover{
     box-shadow: 0px 5px 40px rgb(255, 4, 4);
     text-decoration:underline;
-    
+}
+.deliver-msg{
+    padding-top: 80px;
+    padding-left: 60px;
+    background-image: url(images/shapes/shape-6.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
 }
 #service-item{
     justify-content:space-evenly;
