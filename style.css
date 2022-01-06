@@ -3,29 +3,28 @@ body{
     font-family: 'PT Serif', serif;
     padding:0;
     margin:0;
+    background-image: url(images/shapes/top-banner.png);
+    background-repeat: no-repeat;
 }
 /* @-----------------
 section1 START
 -----------------@ */
 .flex-class{
     display:flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .half-width{
     width:50%;
     margin-left: 50px;
 }
-.half-width img{
-    width:60%;
-}
-#headibg-boarder{
+#heading-boarder{
     display:flex;
 }
 #border-left{
     width: 5px;
-    height: 112px;
-    background-color:brown;
-    margin-top: 12px;
+    height: 127px;
+    background-color:rgb(241, 0, 0);
+    margin-top: 17px;
     border-radius: 100px;
     margin-right: 10px;
 }
@@ -34,7 +33,7 @@ h1{
     margin: 0px;
 }
 span{
-    color:aqua;
+    color:rgba(26, 104, 156, 0.835);
 }
 .heading-div{
     margin-top: 100px;
@@ -48,17 +47,21 @@ p{
 }
 .button{
     text-decoration:none;
-    background-color:blueviolet;
+    background-color:rgb(144, 97, 187);
     padding:15px 30px;
     color:white;
     font-weight:bold;
     font-size:18px;
     border-radius: 10px;
 }
-.profile-img{
-    padding: 0px 110px 0 100px;
+.button:hover{
+    background-color:rgb(123, 219, 228);
+    border: 3px solid red;
 }
-
+.half-width img{
+    width:80%;
+    padding: 100px 110px 0 0px;
+}
 /* @-----------------
 section1 end
 -----------------@ */
@@ -66,10 +69,17 @@ section1 end
 /* @-----------------
 section2 START
 -----------------@ */
-
 h2{
     font-size:55px;
-    text-align:center
+    text-align:center;
+    margin-top:0;
+}
+#mission-item{
+    display:flex;
+    justify-content:space-evenly;
+    width:90%;
+    margin:auto;
+    margin-bottom: 150px;
 }
 .mission{
     width: 25%;
@@ -97,15 +107,8 @@ h2{
     padding-left:25px;
     padding-bottom: 40px;
 }
-#mission-item{
-    display:flex;
-    justify-content:space-evenly;
-    width:90%;
-    margin:auto;
-    margin-bottom: 150px;
-}
 h4{
-    font-size:25px;
+    font-size:35px;
     margin: 10px 0;
 }
 
@@ -118,7 +121,14 @@ section3 START
 -----------------@ */
 .one-third-width{
     width: 30%;
-    margin-left: 100px;
+    padding-left: 110px;
+    margin-left:30px;
+}
+.shape{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: left center;
 }
 .tow-third-width{
     width: 45%;
@@ -141,8 +151,58 @@ section4 START
     margin-left:100px;
     margin-top: 20px;
 }
+#project-shape{
+    background-image: url(images/shapes/shape-6.png);
+    background-repeat: no-repeat;
+    background-size: 260px;
+    background-position: left center;
+}
+/* @-----------------
+section4 START
+-----------------@ */
 
-
+/* @-----------------
+section-Extra START
+-----------------@ */
+.flex-class-extra{
+    display:flex;
+}
+.deliver-msg{
+    padding-top: 80px;
+    padding-left: 60px;
+    background-image: url(images/shapes/shape-6.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+}
+.deliver-img{
+    margin-left: 100px;
+}
+.deliver-img img{
+    height: 500px;
+    width:500px;
+}
+.services{
+    width:15%;
+    box-shadow: 0px 5px 10px;
+    text-align: center;
+}
+.services img{
+    width:100%
+}
+.services a{
+    text-decoration:none;
+}
+.services:hover{
+    box-shadow: 0px 5px 40px rgb(255, 4, 4);
+    text-decoration:underline;
+    
+}
+#service-item{
+    justify-content:space-evenly;
+}
+/* @-----------------
+section-Extra end
+-----------------@ */
 
 /* @-----------------
 footer START
@@ -153,3 +213,6 @@ footer{
     color:white;
     padding:15px 0 20px 0;
 }
+/* @-----------------
+footer end
+-----------------@ */
